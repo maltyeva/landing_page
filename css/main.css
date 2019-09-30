@@ -188,7 +188,7 @@ background-size: cover;
   min-height: 200px   
 }
 .card-category {
-    height: 200px;
+height: 200px;
 background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -216,7 +216,15 @@ a:hover {
   padding: 2% 0%;
 }
 
+.category-list {
+  border: 3px solid rgb(195, 90, 72);
+  margin: -1% -5% -1% 0%;
+  padding-left: 5%;
+}
 
+ul {
+  list-style-image: url('../images/diamond.png');
+} 
 /* TIMELINE */
 
 

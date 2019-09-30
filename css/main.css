@@ -1,0 +1,242 @@
+/*@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');*/
+
+
+
+.main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.main-image {
+  object-fit: cover;
+  height: 100vh;
+}
+
+.main-bg {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/bg4.jpeg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/bg4.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/bg4.jpeg');
+  background-size: cover;
+  background-position: center 90%;
+}
+
+.main-bg2 {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/bg2.jpeg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/bg2.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/bg2.jpeg');
+  background-size: cover;
+  background-position: center 90%;
+}
+
+.main-bg3 {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/forum.jpeg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/forum.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/forum.jpeg');
+  background-size: cover;
+  background-position: center 90%;
+}
+
+h3 {
+  color: rgb(195, 90, 72);
+}
+
+h4.bg {
+  color: white;
+  text-align: center;
+}
+
+h4.bg-2 {
+  color: white;
+  text-align: center;
+  text-transform: none;
+}
+
+.main-bg2 h3 {
+  color: white;
+  font-size: 22px;
+  font-family: "Mesmerize Bold";
+  margin-bottom: 5%;
+}
+
+
+
+.main img {
+  width: 400px;
+}
+
+a {
+  color: rgb(195, 90, 72);
+/*  color: white;
+*/  text-decoration: none;
+}
+
+h4 {
+  color: rgb(195, 90, 72);
+  padding: 3% 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Mesmerize Bold';
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+    -webkit-mask-image: url('../images/down-arrow.svg');
+    mask-image: url('../images/down-arrow.svg');
+  position: absolute;
+  bottom: 15px;
+}
+
+/*@font-face {
+font-family: 'Gotham Light';
+font-style: normal;
+font-weight: normal;
+src: local('../fonts/Gotham Light'), url('../fonts/GothamLight.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Gotham Black';
+src: local('../fonts/Gotham-Black'), url('../fonts/Gotham-Black.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Gotham Medium';
+src: local('../fonts/GothamMedium'), url('../fonts/GothamMedium.woff') format('woff');
+}
+*/
+
+/*@font-face {
+  font-family: "Gotham Medium";
+  src: url('../fonts/Frutiger 45 Light.ttf');
+}*/
+
+
+@font-face {
+  font-family: "Mesmerize Bold";
+  src: url('../fonts/mesmerize/mesmerize-se-ul.ttf');
+}
+
+@font-face {
+  font-family: "Mesmerize";
+  src: url('../fonts/mesmerize/mesmerize-el.ttf');
+}
+
+body {
+  font-family: 'Mesmerize', "Helvetica", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p, body {
+  /*padding: 2% 0%;*/
+    font-family: 'Mesmerize', "Helvetica", sans-serif;
+
+}
+
+/* Header */
+
+.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.header {
+  height: 90px;
+}
+
+.header a {
+  padding: 0% 2%;
+  /*color: white ;*/
+}
+
+.header > * {
+  padding: 0% 2%;
+  
+}
+
+img.logo {
+  height: 70px;
+}
+
+
+.categories {
+  background: #ececec33;
+}
+
+
+/* Card */
+
+
+
+.card-categories {
+background-size: cover;
+  background-position: center;
+  height: 100%;
+  min-height: 200px   
+}
+.card-category {
+    height: 200px;
+background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  /*font-weight: bold;*/
+  /*text-shadow: 1px 1px 3px rgba(0,0,0,0.2);*/
+/*  border-radius: 5px;
+*//*  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+*/}
+
+.card-category:hover {
+ box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.category-list ul li {
+  padding: 2% 0%;
+}
+
+
+/* TIMELINE */
+
+
+
+/* Partners */
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  width: inherit;
+}
+
+/* Footer */
+
+footer {
+  height: 50px;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background: #ececec33;
+
+}

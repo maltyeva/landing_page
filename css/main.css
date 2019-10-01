@@ -70,6 +70,7 @@
 
 
 h3 {
+  font-family: "Mesmerize Bold";
   color: rgb(195, 90, 72);
 }
 
@@ -158,12 +159,12 @@ src: local('../fonts/GothamMedium'), url('../fonts/GothamMedium.woff') format('w
 
 @font-face {
   font-family: "Mesmerize Bold";
-  src: url('../fonts/mesmerize/mesmerize-ul.ttf');
+  src: url('../fonts/mesmerize/mesmerize-bk.ttf');
 }
 
 @font-face {
   font-family: "Mesmerize";
-  src: url('../fonts/mesmerize/mesmerize-el.ttf');
+  src: url('../fonts/mesmerize/mesmerize-sc-el.ttf');
 }
 
 body {

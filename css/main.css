@@ -50,6 +50,7 @@ h4.bg {
 }
 
 h4.bg-2 {
+  letter-spacing: .5px;
   color: white;
   text-align: center;
   text-transform: none;
@@ -57,7 +58,7 @@ h4.bg-2 {
 
 .main-bg2 h3 {
   color: white;
-  font-size: 22px;
+  font-size: 24px;
   font-family: "Mesmerize Bold";
   margin-bottom: 5%;
 }
@@ -124,7 +125,7 @@ src: local('../fonts/GothamMedium'), url('../fonts/GothamMedium.woff') format('w
 
 @font-face {
   font-family: "Mesmerize Bold";
-  src: url('../fonts/mesmerize/mesmerize-se-ul.ttf');
+  src: url('../fonts/mesmerize/mesmerize-ul.ttf');
 }
 
 @font-face {

@@ -276,6 +276,9 @@ ul {
 
 
 
+.timeline-bottom {
+  min-height: 60vh;
+}
 /* Partners */
 
 
@@ -294,14 +297,25 @@ ul {
 }
 /* Footer */
 
-footer {
-  height: 50px;
+.footer-top {
+  height: 200px;
+  background-color: rgba(195, 90, 72, .5);
+}
+
+.footer-inner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer {
+  height: 40px;
   display: flex;
   width: 100vw;
   justify-content: center;
   align-items: center;
   background: #ececec33;
-
 }
 
 

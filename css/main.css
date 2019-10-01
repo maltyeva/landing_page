@@ -58,6 +58,17 @@
   background-position: center 50%;
 }
 
+
+.partner-bg {
+  background-image: -webkit-linear-gradient(black, black), url('../imagescredaward.jpg');
+  background-image: -o-linear-gradient(black, black), url('../images/credaward.jpg');
+  background-image: linear-gradient(black, black), url('../images/credaward.jpg');
+  background-size: cover;
+  background-blend-mode: saturation;
+  background-position: center 50%;
+}
+
+
 h3 {
   color: rgb(195, 90, 72);
 }
@@ -79,6 +90,10 @@ h4.bg-2 {
   font-size: 24px;
   font-family: "Mesmerize Bold";
   margin-bottom: 5%;
+}
+
+.min-vh-100 {
+  min-height: 100vh !important;
 }
 
 
@@ -262,6 +277,10 @@ ul {
 
 /* Partners */
 
+
+.partners-bottom {
+  min-height: 40vh;
+}
 .img-center {
   display: flex;
   justify-content: center;

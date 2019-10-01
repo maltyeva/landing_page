@@ -1,6 +1,9 @@
 /*@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');*/
 
-
+img {
+      max-width: 100%;
+      flex-shrink: 0;
+    }
 
 .main {
   display: flex;
@@ -195,7 +198,7 @@ p, body {
 
 .header-flex > * {
   padding: 0% 2%;
-  /*color: white ;*/
+  font-family: "Mesmerize Bold";
 }
 
 .header > * {
@@ -204,7 +207,7 @@ p, body {
 }
 
 img.logo {
-  height: 70px;
+  height: 60px;
 }
 
 

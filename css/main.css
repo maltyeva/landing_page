@@ -199,6 +199,11 @@ p, body {
   transition: background-color 200ms linear;
 }
 */
+
+.buffer {
+  margin-top: 90px;
+}
+
 .header {
   height: 90px;
   background-color: #fff;

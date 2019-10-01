@@ -210,6 +210,7 @@ background-size: cover;
 
 a:hover {
   text-decoration: none;
+  color: rgba(195, 90, 72, .5);
 }
 
 .category-list ul li {

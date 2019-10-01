@@ -63,11 +63,19 @@ img {
 
 
 .partner-bg {
-  background-image: -webkit-linear-gradient(black, black), url('../imagescredaward.jpg');
+  background-image: -webkit-linear-gradient(black, black), url('../images/credaward.jpg');
   background-image: -o-linear-gradient(black, black), url('../images/credaward.jpg');
   background-image: linear-gradient(black, black), url('../images/credaward.jpg');
   background-size: cover;
   background-blend-mode: saturation;
+  background-position: center 50%;
+}
+
+.judges-bg {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/judges.jpg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/judges.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/judges.jpg');
+  background-size: cover;
   background-position: center 50%;
 }
 
@@ -333,3 +341,20 @@ input {
   background-color: rgb(195, 90, 72) ;
   border-color: rgb(195, 90, 72) ;
 }
+
+
+/* Judge Card */
+
+
+
+.judge-image {
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.judge-card {
+  display: flex;
+  flex-direction: column;
+}
+

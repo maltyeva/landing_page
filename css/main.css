@@ -76,7 +76,7 @@ a {
 
 h4 {
   color: rgb(195, 90, 72);
-  padding: 3% 0px;
+  padding: 10px 0px;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -228,6 +228,16 @@ ul {
 /* TIMELINE */
 
 
+.timeline {
+  height: 50px;
+  width: 100%;
+  background: rgb(195, 90, 72);
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
 
 /* Partners */
 
@@ -237,6 +247,10 @@ ul {
   width: inherit;
 }
 
+.partner-logo {
+  max-width: 100px;
+  object-fit: cover;
+}
 /* Footer */
 
 footer {

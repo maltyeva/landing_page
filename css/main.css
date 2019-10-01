@@ -8,7 +8,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
 
+.main-carousel {
+  margin-top: 90px;
+}
+.main-banner {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .main-image {
@@ -17,9 +27,9 @@
 }
 
 .main-bg {
-  background-image: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/bg4.jpeg');
-  background-image: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/bg4.jpeg');
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/bg4.jpeg');
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/img1.jpg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/img1.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/img1.jpg');
   background-size: cover;
   background-position: center 90%;
 }
@@ -149,16 +159,17 @@ p, body {
 
 /* Header */
 
-.scrolled {
+/*.scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
-
+*/
 .header {
   height: 90px;
+  background-color: #fff;
 }
 
-.header a {
+.header-flex > * {
   padding: 0% 2%;
   /*color: white ;*/
 }

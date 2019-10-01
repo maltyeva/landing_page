@@ -263,3 +263,16 @@ footer {
   background: #ececec33;
 
 }
+
+
+/* FORM OVERVIEW */
+
+input {
+  border-radius: 0px !important;
+}
+
+.btn {
+  border-radius: 0px !important;
+  background-color: rgb(195, 90, 72) ;
+  border-color: rgb(195, 90, 72) ;
+}

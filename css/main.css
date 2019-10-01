@@ -82,7 +82,7 @@ h4.bg {
 h4.bg-2 {
   letter-spacing: .5px;
   color: white;
-  text-align: center;
+  /*text-align: center;*/
   text-transform: none;
 }
 

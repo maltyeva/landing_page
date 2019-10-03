@@ -1,0 +1,367 @@
+$red: rgb(209, 83, 64);
+
+img {
+      max-width: 100%;
+      flex-shrink: 0;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-carousel {
+  margin-top: 90px;
+}
+.main-banner {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-image {
+  object-fit: cover;
+  height: 100vh;
+}
+
+.main-bg {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/img1.jpg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/img1.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../images/img1.jpg');
+  background-size: cover;
+  background-position: center 90%;
+}
+
+.main-bg2 {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/bg2.jpeg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/bg2.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/bg2.jpeg');
+  background-size: cover;
+  background-position: center 90%;
+}
+
+.main-bg3 {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/forum.jpeg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/forum.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/forum.jpeg');
+  background-size: cover;
+  background-position: center 90%;
+}
+
+.timeline-bg {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/img2.png');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/img2.png');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/img2.png');
+  background-size: cover;
+  background-position: center 50%;
+}
+
+
+.partner-bg {
+  background-image: -webkit-linear-gradient(black, black), url('../images/credaward.jpg');
+  background-image: -o-linear-gradient(black, black), url('../images/credaward.jpg');
+  background-image: linear-gradient(black, black), url('../images/credaward.jpg');
+  background-size: cover;
+  background-blend-mode: saturation;
+  background-position: center 50%;
+}
+
+.judges-bg {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/judges.jpg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/judges.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/judges.jpg');
+  background-size: cover;
+  background-position: center 50%;
+}
+
+
+h3 {
+  font-family: "Mesmerize Bold";
+  color: $red;
+}
+
+h4.bg {
+  color: white;
+  text-align: center;
+}
+
+h4.bg-2 {
+  letter-spacing: .5px;
+  color: white;
+  /*text-align: center;*/
+  text-transform: none;
+}
+
+.main-bg2 h3 {
+  color: white;
+  font-size: 24px;
+  font-family: "Mesmerize Bold";
+  margin-bottom: 5%;
+}
+
+.min-vh-100 {
+  min-height: 100vh !important;
+}
+
+
+
+.main img {
+  width: 400px;
+}
+
+a {
+  color: $red;
+/*  color: white;
+*/  text-decoration: none;
+}
+
+h4 {
+  color: $red;
+  padding: 10px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Mesmerize Bold';
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+    -webkit-mask-image: url('../images/down-arrow.svg');
+    mask-image: url('../images/down-arrow.svg');
+  position: absolute;
+  bottom: 15px;
+}
+
+/*@font-face {
+font-family: 'Gotham Light';
+font-style: normal;
+font-weight: normal;
+src: local('../fonts/Gotham Light'), url('../fonts/GothamLight.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Gotham Black';
+src: local('../fonts/Gotham-Black'), url('../fonts/Gotham-Black.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Gotham Medium';
+src: local('../fonts/GothamMedium'), url('../fonts/GothamMedium.woff') format('woff');
+}
+*/
+
+/*@font-face {
+  font-family: "Gotham Medium";
+  src: url('../fonts/Frutiger 45 Light.ttf');
+}*/
+
+
+@font-face {
+  font-family: "Mesmerize Bold";
+  src: url('../fonts/mesmerize/mesmerize-bk.ttf');
+}
+
+@font-face {
+  font-family: "Mesmerize";
+  src: url('../fonts/mesmerize/mesmerize-sc-el.ttf');
+}
+
+body {
+  font-family: 'Mesmerize', "Helvetica", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p, body {
+  /*padding: 2% 0%;*/
+    font-family: 'Mesmerize', "Helvetica", sans-serif;
+
+}
+
+/* Header */
+
+/*.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+*/
+
+.buffer {
+  margin-top: 90px;
+}
+
+.header {
+  height: 90px;
+  background-color: #fff;
+}
+
+.header-flex > * {
+  padding: 0% 2%;
+  font-family: "Mesmerize Bold";
+}
+
+.header > * {
+  padding: 0% 2%;
+  
+}
+
+img.logo {
+  height: 60px;
+}
+
+
+.categories {
+  background: #ececec33;
+}
+
+
+/* Card */
+
+
+
+.card-categories {
+background-size: cover;
+  background-position: center;
+  height: 100%;
+  min-height: 200px   
+}
+.card-category {
+height: 200px;
+background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  opacity: 1;
+ &:hover {
+  opacity: .8;
+   -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+}
+
+a:hover {
+  text-decoration: none;
+  color: $red;
+  opacity: .7;
+}
+
+.category-list ul li {
+  padding: 2% 0%;
+}
+
+.category-list {
+  border: 3px solid rgb(195, 90, 72);
+  margin: -1% -5% -1% 0%;
+  padding-left: 5%;
+}
+
+ul {
+  list-style-image: url('../images/diamond.png');
+} 
+/* TIMELINE */
+
+
+.timeline {
+  height: 50px;
+  width: 100%;
+  background: rgb(195, 90, 72);
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.timeline-bottom {
+  min-height: 40vh;
+}
+
+
+/* Partners */
+
+.partners-bottom {
+  min-height: 40vh;
+}
+.img-center {
+  display: flex;
+  justify-content: center;
+  width: inherit;
+}
+
+.partner-logo {
+  max-width: 100px;
+  height: 100px;  
+  object-fit: cover;
+}
+/* Footer */
+
+.footer-top {
+  height: 200px;
+  background-color: $red;
+}
+
+.footer-top a {
+  color: white;
+}
+.footer-inner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer {
+  height: 40px;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background: #ececec33;
+}
+
+
+/* FORM OVERVIEW */
+
+input {
+  border-radius: 0px !important;
+}
+
+.btn {
+  border-radius: 0px !important;
+  background-color: $red;
+  border-color: $red ;
+}
+
+
+/* Judge Card */
+
+
+
+.judge-image {
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.judge-card {
+  display: flex;
+  flex-direction: column;
+}
+

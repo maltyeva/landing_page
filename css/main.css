@@ -249,11 +249,11 @@ ul {
   object-fit: cover; }
 
 /* Footer */
-.footer-top {
+.footer {
   height: 200px;
   background-color: #d15340; }
 
-.footer-top a {
+.footer a, p {
   color: white; }
 
 .footer-inner {
@@ -262,13 +262,11 @@ ul {
   justify-content: center;
   flex-direction: column; }
 
-.footer {
-  height: 40px;
-  display: flex;
-  width: 100vw;
-  justify-content: center;
-  align-items: center;
-  background: #ececec33; }
+.footer-logo {
+  height: 150px; }
+
+.footer-social {
+  height: 30px; }
 
 /* FORM OVERVIEW */
 input {

@@ -286,11 +286,12 @@ ul {
   background: rgb(195, 90, 72);
   color: white;
   font-size: 20px;
+  font-family: "Mesmerize Bold";
   text-transform: uppercase;
 }
 
 .timeline-bottom {
-  min-height: 40vh;
+  min-height: 50vh;
 }
 
 
@@ -383,6 +384,17 @@ input {
   h4 {
     color: white;
     text-transform: none;
+  }
+}
+
+.award-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  p {
+    text-align: center;
   }
 }
 

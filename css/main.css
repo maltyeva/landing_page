@@ -228,10 +228,11 @@ ul {
   background: #c35a48;
   color: white;
   font-size: 20px;
+  font-family: "Mesmerize Bold";
   text-transform: uppercase; }
 
 .timeline-bottom {
-  min-height: 40vh; }
+  min-height: 50vh; }
 
 /* Partners */
 .partners-bottom {
@@ -302,5 +303,13 @@ input {
   .red-bg h4 {
     color: white;
     text-transform: none; }
+
+.award-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .award-container p {
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

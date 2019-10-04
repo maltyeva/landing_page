@@ -104,6 +104,17 @@ h4.bg-2 {
   margin-bottom: 5%;
 }
 
+@media screen and (max-width: 600px) {
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 20px !important;
+  } 
+}
+
+
 .min-vh-100 {
   min-height: 100vh !important;
 }
@@ -452,6 +463,12 @@ input {
   }
 }
 
+
+@media screen and (max-width: 600px) {
+  #awards {
+    padding-top: 10%;
+  }
+}
 .award-container {
   min-height: 60vh;
   display: flex;

@@ -270,7 +270,8 @@ ul {
 
 .footer a, p {
   color: white;
-  font-family: "Mesmerize Bold"; }
+  font-family: "Mesmerize Bold";
+  font-size: 80%; }
 
 .footer span {
   color: white; }

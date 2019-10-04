@@ -365,3 +365,25 @@ input {
   flex-direction: column;
 }
 
+.judge-card h3 {
+  color: black
+}
+
+
+/* Categories */
+
+.red-bg {
+  background-color: $red;
+  width: 100vw;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around;
+
+  h4 {
+    color: white;
+    text-transform: none;
+  }
+}
+
+

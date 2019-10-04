@@ -288,4 +288,19 @@ input {
   display: flex;
   flex-direction: column; }
 
+.judge-card h3 {
+  color: black; }
+
+/* Categories */
+.red-bg {
+  background-color: #d15340;
+  width: 100vw;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .red-bg h4 {
+    color: white;
+    text-transform: none; }
+
 /*# sourceMappingURL=main.css.map */

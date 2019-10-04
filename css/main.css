@@ -302,10 +302,10 @@ input {
 .red-bg {
   background-color: #d15340;
   width: 100vw;
-  min-height: 200px;
+  min-height: 150px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-evenly; }
   .red-bg h4 {
     color: white;
     text-transform: none; }

@@ -265,10 +265,14 @@ ul {
 
 /* Footer */
 .footer {
-  min-height: 180px;
+  min-height: 10vh;
   background-color: #d15340; }
 
 .footer a, p {
+  color: white;
+  font-family: "Mesmerize Bold"; }
+
+.footer span {
   color: white; }
 
 .footer-inner {
@@ -291,6 +295,9 @@ input {
   border-radius: 0px !important;
   background-color: #d15340;
   border-color: #d15340; }
+  .btn:hover {
+    background-color: rgba(209, 83, 64, 0.5);
+    border-color: rgba(209, 83, 64, 0.5); }
 
 /* Judge Card */
 .judge-image {
@@ -335,5 +342,9 @@ input {
   .award-container h5 {
     text-align: center;
     line-height: 150%; }
+
+/* Contact */
+.contact {
+  min-height: 90vh; }
 
 /*# sourceMappingURL=main.css.map */

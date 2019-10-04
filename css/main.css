@@ -309,7 +309,8 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly; }
-  .award-container p {
-    text-align: center; }
+  .award-container h5 {
+    text-align: center;
+    line-height: 150%; }
 
 /*# sourceMappingURL=main.css.map */

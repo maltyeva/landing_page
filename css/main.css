@@ -250,7 +250,7 @@ ul {
 
 /* Footer */
 .footer {
-  height: 200px;
+  min-height: 200px;
   background-color: #d15340; }
 
 .footer a, p {
@@ -263,10 +263,10 @@ ul {
   flex-direction: column; }
 
 .footer-logo {
-  height: 150px; }
+  height: 120px; }
 
 .footer-social {
-  height: 30px; }
+  font-size: 20px; }
 
 /* FORM OVERVIEW */
 input {

@@ -314,7 +314,7 @@ ul {
 /* Footer */
 
 .footer {
-  height: 200px;
+  min-height: 200px;
   background-color: $red;
 }
 
@@ -331,11 +331,11 @@ ul {
 }
 
 .footer-logo {
-  height: 150px;
+  height: 120px;
 }
 
 .footer-social {
-height: 30px;
+font-size: 20px;
 } 
 
 // .footer {

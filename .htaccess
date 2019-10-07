@@ -297,7 +297,7 @@ AddDefaultCharset utf-8
 # (6) Set %{ENV:PROTO} variable, to allow rewrites to redirect with the
 #     appropriate schema automatically (http or https).
 
-<IfModule mod_rewrite.c>
+ #<IfModule mod_rewrite.c>
 
 
     RewriteEngine On
@@ -313,25 +313,25 @@ AddDefaultCharset utf-8
     # now all urls have en/ de/ -> parse them
     RewriteRule ^(en|zh)/(.*)$  $2?lang=$1&%{query_STRING} [L]
 
-    # (2)
-    Options +FollowSymlinks
+#     # (2)
+#     Options +FollowSymlinks
 
-    # (3)
-    # Options +SymLinksIfOwnerMatch
+#     # (3)
+#     # Options +SymLinksIfOwnerMatch
 
-    # (4)
-    # RewriteBase /
+#     # (4)
+#     # RewriteBase /
 
-    # (5)
-    # RewriteOptions <options>
+#     # (5)
+#     # RewriteOptions <options>
 
-    # (6)
-    RewriteCond %{HTTPS} =on
-    RewriteRule ^ - [env=proto:https]
-    RewriteCond %{HTTPS} !=on
-    RewriteRule ^ - [env=proto:http]
+#     # (6)
+#     RewriteCond %{HTTPS} =on
+#     RewriteRule ^ - [env=proto:https]
+#     RewriteCond %{HTTPS} !=on
+#     RewriteRule ^ - [env=proto:http]
 
-</IfModule>
+#</IfModule>
 
 # ----------------------------------------------------------------------
 # | Forcing `https://`                                                 |

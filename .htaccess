@@ -274,8 +274,8 @@ AddDefaultCharset utf-8
 
 
     # empty url -> redirect to en/
-    # RewriteCond %{QUERY_STRING} !lang=(en|zh)
-    # RewriteRule ^$ en/ [R=301,L]
+   RewriteCond %{REQUEST_URI} !^/en(.*)$
+
 
     # # url is ONLY '/en' or '/zh' -> redirect to /en/ or /zh/ (adding slash)
     # RewriteRule ^(en|zh)$  $1/ [R=301,L]

@@ -270,6 +270,8 @@ AddDefaultCharset utf-8
 
     RewriteEngine On
     RewriteBase /en  
+    RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
 
     # empty url -> redirect to en/
     # RewriteCond %{QUERY_STRING} !lang=(en|zh)

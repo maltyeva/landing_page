@@ -74,57 +74,31 @@
     <div id="awards">
       <div class="container award-container">
         <h3 class="text-center">REGISTER </h3>
-        <div class="row">
- <form name="contactform" method="post" action="contact.php">
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">  
- </td>
-</tr>
-</table>
-</form>
-        </div>
+  <form action="https://formspree.io/contact@maisonzan.com" method="POST">
+          <div class="form-row mx-5">
+          
+            <div class="form-group col-md-6">
+              <label for="inputName">First Name</label>
+              <input type="text" name="first_name" class="form-control" id="inputName">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputName">Last Name</label>
+              <input type="text" name="last_name" class="form-control" id="inputName">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" name="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPhone">Phone Number</label>
+              <input type="email" name="phone" class="form-control" id="inputEmail" placeholder="+86 000 0000 0000">
+            </div>
+          </div>
+          <div class="text-center my-5">
+            
+          <button type="submit" class="btn btn-primary">REGISTER</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>

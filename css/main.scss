@@ -24,6 +24,18 @@ img {
   flex-direction: column;
 }
 
+.full-banner {
+  height: 100vh;
+
+  h4 {
+    font-size: 34px;
+  }
+}
+
+span.lighter {
+  font-family: "Mesmerize", Helvetica, sans-serif;
+}
+
 .main-image {
   object-fit: cover;
   height: 100vh;
@@ -89,9 +101,9 @@ img {
 }
 
 .registration-bg {
-  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../imagespartners/.jpg');
-  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/partners.jpg');
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/partners.jpg');
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/registration.jpg');
+  background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/registration.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/registration.jpg');
   background-size: cover;
   background-position: center 50%;
 }
@@ -434,6 +446,10 @@ input {
   }
 }
 
+
+form.registration {
+  border: 1px solid $red;
+}
 
 /* Judge Card */
 

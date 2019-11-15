@@ -23,6 +23,10 @@ img {
   height: 100vh; }
   .full-banner h4 {
     font-size: 34px; }
+  .full-banner h6 {
+    color: white;
+    font-family: "Mesmerize Bold", Helvetica, sans-serif;
+    text-align: center; }
 
 span.lighter {
   font-family: "Mesmerize", Helvetica, sans-serif; }
@@ -128,6 +132,9 @@ a {
   /*  color: white;
   */
   text-decoration: none; }
+
+p {
+  color: #212529; }
 
 h4 {
   color: #d15340;
@@ -299,7 +306,12 @@ ul {
   min-height: 10vh;
   background-color: #d15340; }
 
-.footer a, p {
+.footer a {
+  color: white;
+  font-family: "Mesmerize Bold";
+  font-size: 80%; }
+
+.footer p {
   color: white;
   font-family: "Mesmerize Bold";
   font-size: 80%; }
